@@ -1,0 +1,2 @@
+3a853eb6c35c82270bb3f0f7f329d71c4c95f15951aeb977340d216260a9f5ef  FreeCAD_1.1.3-Linux-x86_64-py311.AppImage
+
