@@ -1,0 +1,17 @@
+name: verify chunks
+on:
+  push:
+  schedule:
+    - cron: "17 4 * * 1"
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      EXPECTED: 3a853eb69ee595f779f2255dbf80a765926981d8ff68903cefee4dfb03a8f5ef
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          set -euo pipefail
+          cat freecad.part-* > /tmp/freecad.AppImage
+          echo "${EXPECTED}  /tmp/freecad.AppImage" | sha256sum -c -
+          stat -c%s /tmp/freecad.AppImage

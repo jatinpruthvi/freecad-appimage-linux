@@ -1,0 +1,18 @@
+{
+  "asset": "FreeCAD_1.1.3-Linux-x86_64-py311.AppImage",
+  "upstream_release": "https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.3",
+  "sha256": "3a853eb69ee595f779f2255dbf80a765926981d8ff68903cefee4dfb03a8f5ef",
+  "size_bytes": 820795896,
+  "part_prefix": "freecad.part-",
+  "parts": [
+    {"name": "freecad.part-000", "size_bytes": 99614720},
+    {"name": "freecad.part-001", "size_bytes": 99614720},
+    {"name": "freecad.part-002", "size_bytes": 99614720},
+    {"name": "freecad.part-003", "size_bytes": 99614720},
+    {"name": "freecad.part-004", "size_bytes": 99614720},
+    {"name": "freecad.part-005", "size_bytes": 99614720},
+    {"name": "freecad.part-006", "size_bytes": 99614720},
+    {"name": "freecad.part-007", "size_bytes": 99614720},
+    {"name": "freecad.part-008", "size_bytes": 23878136}
+  ]
+}
